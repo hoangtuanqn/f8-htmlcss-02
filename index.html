@@ -11,22 +11,24 @@
         <!-- Embed Font Google -->
         <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet" />
     </head>
-    <header class="header">
-        <div class="content">
-            <nav class="row navbar">
-                <img src="./assets/imgs/logo.svg" alt="Lesson." />
-                <div class="links">
-                    <a href="#!" class="link">Home</a>
-                    <a href="#!" class="link">Courses</a>
-                    <a href="#!" class="link">Pricing</a>
-                    <a href="#!" class="link">Reviews</a>
-                    <a href="#!" class="btn">Sign Up</a>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <body style="height: 5000px">
-        <header class="hero">
+    <body>
+        <header class="header">
+            <div class="content">
+                <nav class="row navbar">
+                    <a href="#">
+                        <img src="./assets/imgs/logo.svg" alt="Lesson." />
+                    </a>
+                    <div class="links">
+                        <a href="#!" class="link">Home</a>
+                        <a href="#!" class="link">Courses</a>
+                        <a href="#!" class="link">Pricing</a>
+                        <a href="#!" class="link">Reviews</a>
+                        <a href="#!" class="btn">Sign Up</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="hero">
             <div class="content row">
                 <div class="block-images">
                     <img
@@ -77,7 +79,7 @@
                     <p class="desc"><strong>50K</strong> Students <strong>70+</strong> Courses</p>
                 </div>
             </div>
-        </header>
+        </div>
         <main>
             <!-- Courses -->
             <div class="courses">
@@ -101,10 +103,14 @@
 
                     <div class="list-courses">
                         <div class="item-course">
-                            <img src="./assets/imgs/course-1.png" alt="Basic web design" class="image-course" />
+                            <a href="#!">
+                                <img src="./assets/imgs/course-1.png" alt="Basic web design" class="image-course" />
+                            </a>
                             <div class="info-course">
                                 <div class="wrap-title dfcenter">
-                                    <h3 class="title">Basic web design</h3>
+                                    <h3 class="title">
+                                        <a href="#!">Basic web design</a>
+                                    </h3>
                                     <div class="start dfcenter">
                                         <img src="./assets/imgs/start.svg" alt="" />
                                         <span class="report_course">4.5</span>
@@ -115,15 +121,17 @@
                                 </p>
                                 <div class="wrap dfcenter">
                                     <span class="price">$120.75</span>
-                                    <a href="#!" class="btn">Book Now</a>
+                                    <a href="#!" class="btn changColorHover">Book Now</a>
                                 </div>
                             </div>
                         </div>
                         <div class="item-course">
-                            <img src="./assets/imgs/course-2.png" alt="UI/UX design" class="image-course" />
+                            <a href="#!"
+                                ><img src="./assets/imgs/course-2.png" alt="UI/UX design" class="image-course"
+                            /></a>
                             <div class="info-course">
                                 <div class="wrap-title dfcenter">
-                                    <h3 class="title">UI/UX design</h3>
+                                    <h3 class="title"><a href="#!">UI/UX design</a></h3>
                                     <div class="start dfcenter">
                                         <img src="./assets/imgs/start.svg" alt="" />
                                         <span class="report_course">4.5</span>
@@ -134,15 +142,17 @@
                                 </p>
                                 <div class="wrap dfcenter">
                                     <span class="price">$120.75</span>
-                                    <a href="#!" class="btn">Book Now</a>
+                                    <a href="#!" class="btn changColorHover">Book Now</a>
                                 </div>
                             </div>
                         </div>
                         <div class="item-course">
-                            <img src="./assets/imgs/course-3.png" alt="Web App design" class="image-course" />
+                            <a href="#!"
+                                ><img src="./assets/imgs/course-3.png" alt="Web App design" class="image-course"
+                            /></a>
                             <div class="info-course">
                                 <div class="wrap-title dfcenter">
-                                    <h3 class="title">Web App design</h3>
+                                    <h3 class="title"><a href="#!">Web App design</a></h3>
                                     <div class="start dfcenter">
                                         <img src="./assets/imgs/start.svg" alt="" />
                                         <span class="report_course">4.5</span>
@@ -153,7 +163,7 @@
                                 </p>
                                 <div class="wrap dfcenter">
                                     <span class="price">$120.75</span>
-                                    <a href="#!" class="btn">Book Now</a>
+                                    <a href="#!" class="btn changColorHover">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -232,7 +242,152 @@
                     </div>
                 </div>
             </div>
+            <div class="blog">
+                <div class="content">
+                    <h2 class="title">Our blog</h2>
+                    <p class="desc" style="--line-clamp: 3">
+                        Read our regular travel blog and know the latest update of tour and travel
+                    </p>
+                    <div class="list-blog row">
+                        <!-- Blog item 1 -->
+                        <div class="item-blog">
+                            <img
+                                src="./assets/imgs/person-1.jpg"
+                                alt="How to become a pro web designer in 2022 and get remot job?"
+                                class="blog-image"
+                            />
+                            <div class="info-blog">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="sub-title line-clamp">
+                                    <a href="#!">How to become a pro web designer in 2022 and get remot job?</a>
+                                </h3>
+                                <a href="" class="btn changColorHover">Read More</a>
+                            </div>
+                        </div>
+
+                        <!-- Blog item 2 -->
+                        <div class="item-blog">
+                            <img
+                                src="./assets/imgs/person-2.jpg"
+                                alt="How to become a pro web designer in 2022 and get remot job?"
+                                class="blog-image"
+                            />
+                            <div class="info-blog">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="sub-title line-clamp">
+                                    <a href="#!">How to become a pro web designer in 2022 and get remot job?</a>
+                                </h3>
+                                <a href="" class="btn changColorHover">Read More</a>
+                            </div>
+                        </div>
+
+                        <!-- Blog item 3 -->
+                        <div class="item-blog">
+                            <img
+                                src="./assets/imgs/person-3.jpg"
+                                alt="How to become a pro web designer in 2022 and get remot job?"
+                                class="blog-image"
+                            />
+                            <div class="info-blog">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="sub-title line-clamp">
+                                    <a href="#!">How to become a pro web designer in 2022 and get remot job?</a>
+                                </h3>
+                                <a href="" class="btn changColorHover">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dots">
+                        <span class="dot"></span>
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
         </main>
-        <footer></footer>
+        <footer class="footer">
+            <div class="content">
+                <div class="atc-all">
+                    <ul>
+                        <li>
+                            <a href="#" class="atc-link">
+                                <img src="./assets/imgs/logo-footer.svg" alt="Lesson." />
+                            </a>
+                        </li>
+                        <li class="desc">
+                            <a href="#!" class="atc-link"
+                                >Need to help for your dream Career? trust us. With Lesson, study becomes a lot easier
+                                with us.</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#!" class="atc-link">
+                                <img class="social-icon" src="./assets/imgs/Twitter.svg" alt="" />
+                            </a>
+
+                            <a href="#!" class="atc-link">
+                                <img class="social-icon" src="./assets/imgs/Facebook.svg" alt="" />
+                            </a>
+
+                            <a href="#!" class="atc-link">
+                                <img class="social-icon" src="./assets/imgs/Linkedin.svg" alt="" />
+                            </a>
+
+                            <a href="#!" class="atc-link">
+                                <img class="social-icon" src="./assets/imgs/Instagram.svg" alt="" />
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><h3 class="sub-title">Company</h3></li>
+                        <li>
+                            <a href="#!" class="atc-link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="atc-link">Features</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="atc-link">Our Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="atc-link">Latest News</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><h3 class="sub-title">Company</h3></li>
+
+                        <li>
+                            <a href="#!" class="atc-link">FAQ’s</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="atc-link">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="atc-link">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="atc-link">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><h3 class="sub-title">Company</h3></li>
+
+                        <li>
+                            <a href="#!" class="atc-link"
+                                ><span class="bold">Location:</span> 27 Division St, New York, NY 10002, USA</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#!" class="atc-link"><span class="bold">Email:</span> email@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="atc-link"><span class="bold">Phone:</span> + 000 1234 567 890</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="horizontal"></div>
+                <address>Copyright ©2024 HTUANQN All rights reserved</address>
+            </div>
+        </footer>
     </body>
 </html>
